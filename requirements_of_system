@@ -1,0 +1,72 @@
+Data storage
+	Per guest:
+		Name
+		Address
+		Credit card
+		Phone number
+		Next-of-kin
+		Copy of identification
+		History of stays
+		History of bills
+		Family composition
+                Movement of guest through facial recognition
+		Alcohol consumption history
+		Public social media messages during stay
+		Health issues during stays
+	Per stay:
+		Guests
+		Keycards
+		Room
+		Usage-minibar
+		TV
+		Pay-TV
+		Internet-flow-data
+		Phone
+		Front-Door-status
+		Movement-detectors
+		AC-status
+		Electric-active-status
+		Balcony-door-status
+		Towl usage
+
+	# A bill is opened when guests start their stay and is per room
+	Per bill:
+		Guests
+		Stay
+		Charges
+		Free-Usages
+	
+	
+Create a personal marketing profile based on history to customize minibar contents, adds on tv, show internet pop-ups, welcome message, towls, movements through hotel
+Create a risk analysis if guest is still welcome
+More hotels use this software, they share data to increase coverage (data is saved by our company and can only be seen if guest reserves a stay)
+
+Edge weirds:
+ - Can see who cheats on their partner
+ - Habit analysis on all stays in connected hotels to check for habits
+    - Porn habits / kinks
+    - Bathroom schedule
+    - Unencrypted e-mail analysis
+    - Sport habits
+    - 
+ - Can tell every movement of a person
+ - Partially correct health profile
+ - Internet usage
+ - Create entire family composition
+ - Can request new ID for an arbitrary guest based on stored data
+
+
+What happens if / questions:
+ - Data is leaked?
+ - Data is stored for wrong person? / system faults
+ - Should we call police based on certain data?
+ - Should we tell partners based on certain data?
+ - Should we give data to collection officer to help retrieve payments?
+ - Sell data?
+ - Who can see all data? (Super users)
+ - Should we handover data when police asks about criminal activity?
+ - Should we correct bad behavior of guests? (Nudging / paternalism)
+ - Should we give discounts to 'good' people? And what is good?
+ - Should we give discounts to 'preferred' guests? (Large income, ethnic diversity etc.)
+ - Should we bar guests based on history profiles?
+ - Should we pre-screen guests based on social media?
