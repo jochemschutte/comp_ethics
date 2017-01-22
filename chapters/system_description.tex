@@ -1,0 +1,58 @@
+\chapter{System Description}
+
+\section{Technical pitch of "Big Sis BI"}
+Our hotel system is the king of achievable business intelligence (BI). We can provide a hotel owner with complete movements patterns and habits of a guest through elegant but high-tech solutions. The goal is to increase the comfort of the guest and to help protect and better the hotel. Of course it stores the basic information of each guest:
+
+\begin{itemize}
+	\item Title - The title of the guest to properly address the guest.
+	\item Name - The full first and surname of the guest.
+	\item Address - The address of the guest to send bills and other documents.
+	\item Credit-card - The creditcard information of the guest for billing.
+	\item Phone number - The phone number of the guest. For e.g. we need to confirm reservations.
+	\item Next-of-kin - The next-of-kin for emergencies.
+	\item Copy of identification - A copy of the identification for billing and in case of emergencies
+\end{itemize}
+
+However, our system does not stop there. We can advise on how to increase the comfort of any guest through the following additional information:
+
+\begin{itemize}
+	\item History of stays - For each stay, all data of that day is stored for analysis.
+	\item History of bills - All bills are stored for the financial administration.
+	\item Family composition - By knowing the familiar composition of all our guests we can increase comfort. E.g. we can determine if a child is lost and where the child's parents are.
+	\item Movement of a guest - To help predict and balance the amount of needed staff members per service, we need to know where the guests have been in the past. We identify each guest through facial recognition and create a history of where the guest has been.
+	\item Consumption history - The system also tries to keep track of what a guest consumes outside of the guest's room. This information is useful to predict what new beverages and foods to add to the menu.
+	\item Public social media messages - As we know when a person is staying at the hotel, we can instantly link to Facebook, Twitter and other social media out to analyse if a guest is enjoying the stay or not. Also, the system can detect if a guest writes about the hotel. This unlocks the ability to add discount-points or something similar when a guest helps to market the hotel.
+	\item Health issues during stay - Any need for medical care during a stay is recorded to warn the staff on future stays
+\end{itemize}
+
+With the increased amount of saved data per guest, we can achieve a number of useful BI cases to help the performance of the hotel. Not only do we save information for guests, we also save information for stays:
+
+\begin{itemize}
+	\item Guests - We check in every guest of every room to create a more detailed account of the public
+	\item Key-cards - As multiple key-cards per room can be linked, we need to save this information somewhere
+	\item Room access - Each time a key-card is used for a door, we save the usage. This is to determine if any guests are in the room and to help with creating the movement history of guests.
+	\item Usage mini-bar - To help decide the contents of the mini bar, the history of consumption of each beverage and food is stored.
+	\item Usage TV - To help decide which TV channels are popular, we save which TV channels have been watched and for how long. Any pay TV purchases are stored as well.
+	\item Internet meta data - Each room will have its own Wifi access-point so we can store the meta-data associated with that room. This flow-data will help analyse what the guest will like and what not. If a guest is constantly on Amazon an employee might casually tell the guest about the shops in the hotel.
+	\item Usage phone - We also save telephone usages (both hard-line and mobile) to help create a profile of the guest's habits.
+	\item Front-door-status - We save when a front-door of a room is locked or not.
+	\item Balcony-door-status - We save when a balcony-door of a room is open or not.
+	\item Movement-detectors - To help create a pattern of when guests are sleeping, movement detector data is stored
+	\item AC-status - To help the environment, we also store when the AC is on. Together with the balcony-door-status, this can help to find out if any AC machines are turned on wastefully.
+	\item Usage electricity - To help the environment, electricity usage is monitored to determine if any guests waste an unreasonable amount of energy.
+	\item Towel usage - To help predict the amount of towels needed for each room, towel usage is recorded. 
+\end{itemize}
+
+And lastly, each guest has the ability to open a bill during a stay on the guest's room. This bill can be paid for at the end of or during the stay and allows the user to not have to worry about bringing any cash money, credit-cards or any monetary options:
+
+\begin{itemize}
+	\item Guests - Each bill is linked to a specific group of guests who are able to add to the bill or to pay it.
+	\item Stay - Each bill is linked to a specific stay
+	\item Charges - The charges on the bill. Any "free-usages" are also recorded. These are any free services provided by the hotel but require the use of the key-card to use.
+\end{itemize}
+
+All in all, the enormous amount of information saved can help the hotel in many different ways. Our top sociologists and behaviourists helped to develop algorithms that can profile guests based on their movement and consumption patterns. These profiles can help with guest-specific marketing in the rooms or even warn the staff about potentially aggressive guests. Also, as we know the status of any utility in the room we can detect wasteful actions e.g. turning on the AC with a door open. This in turn can help the hotel warn guests to stop their wasteful behavior.
+
+\subsection{Potential, extreme scenarios}
+The described system can result in a number of weird edge cases where very private information of a guest is discovered. For instance, by saving all meta-data of every source of entertainment it is possible to reveal the porn habits or kinks of a guest. Another example are the movement detectors in all parts of the room that can lead to a bathroom schedule for the guests of a specific room. We could even go as far as to "automate hacking" by setting up bots that tries the different URLs where guests visit on the internet or that catch cookies. Or even create an internet profile where we can discover which internet services guest use. All in all, an interesting scenario when things go wrong!
+
